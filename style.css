@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    height: 65px;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+
+}
+
+.navbar nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 2em;
+}
+
+nav ul li a,
+span {
+    text-transform: capitalize;
+}
+
+nav ul li select {
+    border: none;
+}
+
+.btn button {
+    color: navy;
+    padding: 12px 20px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background-color: rgb(41, 97, 193);
+    text-transform: capitalize;
+    color: white;
+}
+.btn button:hover{
+    color: #67e670;
+  }
+
+.btn {
+    margin-right: 50px;
+}
+
+.btn a:hover{
+    color: #67e670;
+  }
+
+.btn a {
+    text-transform: capitalize;
+    color: rgb(41, 97, 193);
+    margin-right: 2em;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar nav h1 {
+    text-transform: capitalize;
+    margin-left: 70px;
+    margin-left: 100px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+
+}
+
+.img {
+    margin-top: 100px;
+    margin-right: 70px;
+}
+
+img {
+    height: 400px;
+    margin-right: 99px;
+}
+
+.info .title h1 {
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.info h3 {
+    color: orange;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.btn2 {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 30px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px #8888;
+}
+
+.btn2 .info2 h4 {
+    color: gray;
+    text-transform: capitalize;
+}
+
+
+.btn2 .info2 h3 {
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+}
+
+.btn2 button {
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(41, 97, 193);
+    border-radius: 5px;
+    color: white;
+    text-transform: capitalize;
+
+}
+.btn2 button:hover{
+    color: #67e670;
+  }
+
+.home a {
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+
+}
+.home a:hover{
+    color: #67e670;
+  }
+
+span {
+    color: gray;
+    font-size: 18px;
+
+}
+.product {
+    text-align: center;
+    height: 600px;
+    margin-top: 50px;
+}
+
+
+
+.product .heading h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.card {
+    height: 200px;
+    width: 300px;
+    padding: 30px;
+    background-color: rgba(220, 220, 220, 0.179);
+    border-radius: 5px;
+    border: 1px solid rgba(220, 220, 220, 0.559);
+}
+
+.cards {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+
+}
+
+.card img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin-top: 40px;
+    text-transform: capitalize;
+}
